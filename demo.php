@@ -1,8 +1,4 @@
 <?php
-    if(isset($name->$_POST['name'],
-        $email->$_POST['email'],$phone->$_POST['phone'],
-        $message->$_POST['message'])){
-
     require $_SERVER['DOCUMENT_ROOT'].'/php.api-sms/autoload.php';
     $MessageBird = new \MessageBird\Client('jsPaB8Ju2ypY8lbh4nJoy0eAy
     ');
